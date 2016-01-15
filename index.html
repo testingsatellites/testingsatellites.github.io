@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="font-awesome.min.css">
-    </head><header>
-    </header>
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="js/jquery-2.2.0.min.js"></script>
+       <!--- <script src="js/randquo.js"></script>
+        <script src="js/jquery.textfill.min.js"></script> --->
+    </head>
+    <header></header>
         <body>
-           <!-- <div class="rocket"><span class="fa fa-space-shuttle"></span></div>
-            <div class="rocket-2"><span class="fa fa-space-shuttle fa-rotate-180"></span></div>
-            <div class="box"><br><br></div> -->
-            <section class="satellites">
-                <h1>SATELLITES</h1>
-                    <h2>I'm an aspiring web developer/designer on the long road to making beautiful websites for the world.</h2>
-                        <h3>UNDER CONSTRUCTION</h3>
-                <div class="circle"><span class="fa fa-circle"></span></div>
-            </section>
+            <div class="container">
+                <div class="satellites">
+                    <h1>SATELLITES</h1>
+                </div>
+                <div class="quote">
+                    <!--- Roku <h2>"why do they call if oven when you of in the cold food of out hot eat the food"</h2> -->
+                    <span><h2>[he isnt even that good at it, so why does he try?] - Friend 2015</h2></span>
+                 <!---</div>
+                <div id="quote2">
+                    <span><h2>[He’s not even that good at it, so why does he try?] - Friend 2015</h2></span>
+                </div>
+                <div id="quote3">
+                    <span><h2>[He’s not even that good at it, so why does he try?] - Friend 2015</h2></span>
+                </div>
+                <div id="quote4">
+                    <span><h2>[ not even that good at it, so why does he try?] - Friend 2015</b>.</h2></span>
+                </div>	---->
+                <div class="enter">
+                    <h3>enter</h3>
+                </div>
+                <script>
+                    $(function() {
+                        $('.enter').on('click',function() {
+                            $('.enter').addClass('animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                                function() {
+                                    $(this).removeClass('animated shake');
+                            });
+                        });
+                    });
+                </script>
+            </div>
         </body>
+    </body>
 </html>

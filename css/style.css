@@ -1,0 +1,74 @@
+/* == fonts == */
+@font-face {
+    font-family: "OCRASTD";
+    src: url(fonts/OCRAStd.otf);
+}
+@font-face: {
+    font-family: "OCRAEXT";
+    src: url(fonts/OCRAEXT.ttf);
+}
+
+html {
+    
+}
+body {
+    margin: 0;
+    background-color: #6369d1;
+}
+
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.satellites {
+    
+    padding-left: 50px;
+    
+}
+
+h1 {
+    font-family: OCR A, monospace;
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    letter-spacing: 80px;  
+    margin: 250px auto;
+}
+
+.quote {
+    background-color: #34435e;
+    position: relative;
+    width:900px;
+    border-radius: 3px;
+    border-left: 6px #60e1e0 solid;
+    height: 67px;
+    padding-top: 5px;
+    margin: -200px auto;
+}
+h2 {
+    font-size: 22px;
+    font-family: OCR A, monospace;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.enter {
+    border-radius: 3px;
+    background-color: #585dbc;
+    border-bottom: 4px solid #5156ae;
+    width: 120px;
+    height: 50px;
+    margin: 250px auto;
+}
+
+h3 {
+    font-family: OCR A Extended, monospace;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
