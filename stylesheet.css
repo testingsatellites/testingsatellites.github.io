@@ -1,0 +1,259 @@
+/*-------- Global --------*/
+
+* {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*-------- Navbar --------*/
+.navigation {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+.navigation a {
+    font-weight: 800;
+    color: #f03232;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 19px;
+    margin-right: 50px;
+}
+
+/*-------- Home Page --------*/
+
+header img {
+    background-color: #f03232;
+    height: 100%;
+    width: 100%;
+}
+
+#story {
+    height: 300px;
+    padding: 50px 50px 50px 50px;
+    color: white;
+    background-color: #f03232; 
+}
+
+#story p {
+    text-align: center;
+    padding: 100px 100px 100px 100px;
+}
+
+#story img {
+    display: inline-block;
+    margin-left: 300px;
+}
+#newberry {
+    padding: 30px 30px 30px 30px;
+    height: 500px;
+    color: #f03232;
+}
+
+#newberry img {
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 400px;
+    width: auto;
+}
+
+#newberry p{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+#chars {
+    padding: 30px 30px 30px 30px;
+    height: 500px;
+    color: white;
+    background-color: #f03232;
+}
+
+#chars img {
+    float: left;
+    margin: 30px 50px 0px 20px;
+    height: 400px;
+    width: auto;
+}
+
+#chars p {
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+#preorder {
+    height: 150px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    color: #f03232;
+    height: 200pxf03232;
+}
+
+#preorder ul {
+    list-style: none;  
+}
+
+#preorder li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+
+    color: white;
+    background-color: #f03232;   
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 50px; 
+}
+/*-------- Characters Page --------*/
+#characters ul {
+    list-style: none; 
+}
+
+#characters li {
+    margin-left: 210px;
+}
+
+#tuesday, #alice, #mike, #roy, #walt {
+    padding: 50px 60px 50px 60px;
+}
+
+#tuesday {
+    color: black;
+    background-color: #edf692;
+}
+
+#tuesday img {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: px;
+}
+
+#alice {
+    color: white;
+    background-color: #578af6;
+}
+
+#alice img {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#mike {
+    color: white;
+    background-color: #8ca88b;
+}
+
+#mike img {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#roy {
+    color: white;
+    background-color: #282928;
+}
+
+#roy img {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#walt {
+    color: white;
+    background-color: #f03232;
+}
+
+#walt img {
+    height: 190px;
+    border-radius: 50%;
+    width: 190px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+/*-------- Author Page --------*/
+#author {
+    background: #f03232;
+    padding: 50px 50px 50px 50px;
+}
+
+#about {
+    padding: 50px 10px 50px 50px;
+    height: 350px;
+}
+
+#about img {
+    float: left;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #f24a4a;
+    margin-right: 70px;
+}
+
+#about h1, h2, h3 {
+    color: white;
+}
+
+#about h1 {
+    margin-top: 95px;
+}
+
+#works img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #f24a4a;
+    margin: 10px 30px 30px 30px;
+     
+}
+
+#works img:hover {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #fff;
+    -webkit-transition: 2s; /* Safari */
+    transition: 1s;
+}
